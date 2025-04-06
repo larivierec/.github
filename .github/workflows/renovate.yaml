@@ -19,10 +19,11 @@ on:
       logLevel:
         description: Log Level
         type: choice
-        default: info
+        default: warn
         options:
           - debug
           - info
+          - warn
 
 jobs:
   renovate:
